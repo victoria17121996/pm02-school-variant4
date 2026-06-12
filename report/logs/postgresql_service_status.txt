@@ -1,0 +1,4 @@
+Get-Service postgresql-x64-17
+Status: Running
+Name: postgresql-x64-17
+DisplayName: postgresql-x64-17 - PostgreSQL Server
