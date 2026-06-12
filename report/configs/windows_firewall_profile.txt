@@ -1,0 +1,6 @@
+Get-NetFirewallProfile
+
+Профили Брандмауэра Windows проверены.
+Domain: Enabled = True
+Private: Enabled = True
+Брандмауэр Windows включен
