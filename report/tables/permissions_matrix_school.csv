@@ -1,0 +1,6 @@
+Пользователь,Объекты БД,Разрешенные операции,Проверка
+postgres,school_journal_db,ПОЛНЫЙ ДОСТУП,Может создавать и удалять БД пользователей и таблицы
+admin_school,"school_journal_db schema public","SELECT INSERT UPDATE DELETE",Управляет таблицами электронного журнала и настройками БД
+teacher_rw,"students lessons grades attendance","SELECT INSERT UPDATE",Может просматривать добавлять и изменять записи электронного журнала
+journal_ro,"students lessons grades attendance",SELECT,Может только просматривать данные электронного журнала
+filter_admin,"filter_rules blocked_sites","SELECT INSERT UPDATE DELETE",Управляет правилами контентной фильтрации
