@@ -1,0 +1,3 @@
+Get-EventLog -LogName System -EntryType Error -Newest 5
+Проверены последние системные ошибки Windows
+Критических ошибок, влияющих на работу PostgreSQL, не выявлено
